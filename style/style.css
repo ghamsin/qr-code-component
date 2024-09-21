@@ -1,0 +1,34 @@
+.container {
+    width: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: Outfit;
+}
+.container__qrcode {
+    border-radius: 1rem;
+}
+.container__title {
+    text-align: center;
+}
+.container__text {
+    text-align: center;
+}
