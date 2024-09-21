@@ -3,7 +3,7 @@
     margin-right: auto;
     margin-left: auto;
     background-color: white;
-    padding: 1.5rem;
+    padding:1.7rem;
     border-radius: 2rem;
 
 }
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
-    line-height: 1.6;
+    line-height: 1.4;
     font-size: 1.6rem;
     font-family: Outfit;
 }
@@ -30,10 +30,10 @@ body {
     border-radius: 1rem;
 }
 .container__title {
-    color: hsl(218, 44%, 22%);
+    text-align: center;
+    color: rgb(31, 49, 79);
     font-weight: bold;
-    font-size: 2.8rem;
-    text-align:center;
+    font-size: 3rem;
     padding: 2rem 0;
 }
 
@@ -41,6 +41,7 @@ body {
     color: hsl(216, 15%, 48%);
 }
 .container__text {
+    font-size: 2rem;
     text-align: center;
 }
 .container__attribution {
