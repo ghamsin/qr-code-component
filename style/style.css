@@ -5,6 +5,7 @@
     background-color: white;
     padding: 1.5rem;
     border-radius: 2rem;
+
 }
 html {
     box-sizing: border-box;
@@ -24,11 +25,33 @@ body {
     font-family: Outfit;
 }
 .container__qrcode {
+    align-items: center;
+    width: 100%;
     border-radius: 1rem;
 }
 .container__title {
-    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align:center;
+    padding: 2rem 0;
+}
+
+.container__area {
+    color: hsl(216, 15%, 48%);
 }
 .container__text {
     text-align: center;
+}
+.container__attribution {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
